@@ -1,0 +1,17 @@
+name: fly
+version: 0.1.0
+
+authors:
+  - Alex Piechowski <alex@piechowski.io>
+
+crystal: ">=1"
+
+license: MIT
+
+dependencies:
+  habitat:
+    github: luckyframework/habitat
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba

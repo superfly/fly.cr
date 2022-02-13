@@ -26,6 +26,7 @@ for crystal.
 1. Require `fly/pg/error_handler` and `fly/avram` _after_ avram
 
    ```crystal
+   # src/shards.cr
    # ...
    require "avram"
    # ...

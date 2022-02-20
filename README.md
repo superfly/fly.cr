@@ -65,7 +65,7 @@ by writing a fly config:
 ```crystal
 # config/fly.cr
 Fly.configure do |settings|
-   settings.primary_region = ENV["WRITER_REGION"] # Can be any string
+   settings.primary_region = ENV["PRIMARY_REGION"] # Can be any string
 end
 ```
 

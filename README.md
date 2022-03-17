@@ -10,7 +10,7 @@ for crystal.
    ```yaml
    dependencies:
      fly:
-       github: grepsedawk/fly.cr
+       github: superfly/fly.cr
        version: ~> 0.1
    ```
 
@@ -71,15 +71,15 @@ end
 
 ## Development
 
-For now, make a Fly.io deploy using [lucky_jumpstart](https://github.com/stephendolan/lucky_jumpstart)
-and use that to test.
+Deploy a Lucky app using the fly.io [Run a Crystal App](https://fly.io/docs/getting-started/crystal/)
+guide.
 
 It's a bit of a pain because deploys take 3-5min, but it's the best development
 option as it provides integration testing.
 
 ## Contributing
 
-1. Fork it (<https://github.com/grepsedawk/fly-crystal/fork>)
+1. Fork it (<https://github.com/superfly/fly-crystal/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
